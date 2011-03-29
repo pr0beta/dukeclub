@@ -1,10 +1,9 @@
-require 'rubygems'
-require 'mongo'
-
 source 'http://rubygems.org'
 source 'http://gemcutter.org'
 
 gem 'rails', '3.0.3'
+gem 'mongo', '1.2.4'
+gem 'bson_ext', '1.2.4'
 gem "mongo_mapper"
 
 # Deploy with Capistrano
@@ -12,7 +11,7 @@ gem "mongo_mapper"
 
 # To use debugger (ruby-debug for Ruby 1.8.7+, ruby-debug19 for Ruby 1.9.2+)
 # gem 'ruby-debug'
-gem 'ruby-debug19'
+# gem 'ruby-debug19'
 
 # Bundle the extra gems:
 # gem 'bj'
